@@ -69,3 +69,24 @@ header nav{
     padding: .4rem 1rem;
     color: #FFF;
 }
+
+/* conteudo */
+#ribbon{
+    text-align: center;
+    padding: .8rem;
+    background-color: #F5F5F7;
+    color: #1D1D1D;
+    font-size: .9rem;
+}
+
+#ribbon a{
+    color: #0071E3;
+}
+
+#main-content{
+    align-items: center;
+    color: #1D1D1D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
