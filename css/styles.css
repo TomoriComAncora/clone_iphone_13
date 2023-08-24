@@ -183,3 +183,80 @@ header nav {
 .selected {
     outline: 2px solid #43a1ff;
 }
+
+/* mobile */
+@media(max-width: 480px){
+    #navbar li{
+        display: none;
+    }
+
+    #navbar #logo{
+        display: flex;
+    }
+
+    #bottom-header-links a{
+        display: none;
+    }
+
+    #bottom-header-links .btn{
+        display: flex;
+    }
+
+    #main-content{
+        padding: 2rem;
+        overflow: hidden;
+    }
+
+    #main-content #subtitle{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 330px){
+    #main-content #subtitle{
+        font-size: 2rem;
+    }
+
+    #main-content #description {
+        font-size: .9rem;
+    }
+
+    #main-content #price{
+        font-size: 1rem;
+    }
+
+    #main-content #product-image{
+        max-width: 700px;
+    }
+
+    #id-picker{
+        margin: 0 1rem;
+    }
+
+    #id-picker li{
+        margin: 0 .7rem;
+    }
+}
+
+@media(max-width:770px){
+    #bottom-header {
+        font-size: 1rem;
+    }
+    
+    #ribbon{
+        font-size: 1rem;
+    }
+
+    #main-content{
+        padding: 2rem;
+        overflow: hidden;
+    }
+
+    #main-content #title{
+        font-size: 2rem;
+    }
+
+    #main-content #product-image{
+        max-width: 1000px;
+    }
+}
