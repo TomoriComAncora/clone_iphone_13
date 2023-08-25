@@ -121,142 +121,179 @@ header nav {
   align-self: center;
 }
 
-#main-content #product-image{
-    max-width: 1000px;
-    margin: 3rem auto;
-    opacity: 1;
-    transition: .5s;
+#main-content #product-image {
+  max-width: 1000px;
+  margin: 3rem auto;
+  opacity: 1;
+  transition: 0.5s;
 }
 
-#main-content #product-image .changing{
-    opacity: .5;
+#main-content #product-image .changing {
+  opacity: 0.5;
 }
 
-#id-picker{
-    margin-bottom: 100px;
+#id-picker {
+  margin-bottom: 100px;
 }
 
-#id-picker ul{
-    display: flex;
-    justify-content: center;
+#id-picker ul {
+  display: flex;
+  justify-content: center;
 }
 
-#id-picker li{
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
+#id-picker li {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
 }
 
-#id-picker li .color{
-    height: 2rem;
-    width: 2rem;
-    border-radius: 50%;
-    box-shadow: 1px 1px 1px;
-    border: 3px solid #FFF;
-    pointer-events: none;
+#id-picker li .color {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px;
+  border: 3px solid #fff;
+  pointer-events: none;
 }
 
-#id-picker .description{
-    font-size: .7rem;
-    margin-top: .5rem;
-    color: #1d1d1d;
+#id-picker .description {
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  color: #1d1d1d;
 }
 
-#green .color{
-    background-color: #394c38;
+#green .color {
+  background-color: #394c38;
 }
-#silver .color{
-    background-color: #f1f2ed;
+#silver .color {
+  background-color: #f1f2ed;
 }
-#blue .color{
-    background-color: #a7c1d9;
+#blue .color {
+  background-color: #a7c1d9;
 }
-#golden .color{
-    background-color: #fae7cf;
+#golden .color {
+  background-color: #fae7cf;
 }
-#grafite .color{
-    background-color: #54524f;
+#grafite .color {
+  background-color: #54524f;
 }
 
 .selected {
-    outline: 2px solid #43a1ff;
+  outline: 2px solid #43a1ff;
 }
 
 /* mobile */
-@media(max-width: 480px){
-    #navbar li{
-        display: none;
-    }
+@media (max-width: 480px) {
+  #navbar li {
+    display: none;
+  }
 
-    #navbar #logo{
-        display: flex;
-    }
+  #navbar #logo {
+    display: flex;
+  }
 
-    #bottom-header-links a{
-        display: none;
-    }
+  #bottom-header-links a {
+    display: none;
+  }
 
-    #bottom-header-links .btn{
-        display: flex;
-    }
+  #bottom-header-links .btn {
+    display: flex;
+  }
 
-    #main-content{
-        padding: 2rem;
-        overflow: hidden;
-    }
+  #main-content {
+    padding: 2rem;
+    overflow: hidden;
+  }
 
-    #main-content #subtitle{
-        font-size: 2rem;
-    }
+  #main-content #subtitle {
+    font-size: 2rem;
+  }
 }
 
-@media(max-width: 330px){
-    #main-content #subtitle{
-        font-size: 2rem;
-    }
+@media (max-width: 770px){
+  #navbar li {
+    display: none;
+  }
 
-    #main-content #description {
-        font-size: .9rem;
-    }
+  #navbar #logo {
+    display: flex;
+  }
 
-    #main-content #price{
-        font-size: 1rem;
-    }
+  #bottom-header-links a {
+    display: none;
+  }
 
-    #main-content #product-image{
-        max-width: 700px;
-    }
+  #bottom-header-links .btn {
+    display: flex;
+  }
 
-    #id-picker{
-        margin: 0 1rem;
-    }
+  #main-content {
+    padding: 2rem;
+    overflow: hidden;
+  }
 
-    #id-picker li{
-        margin: 0 .7rem;
-    }
+  #main-content #subtitle {
+    font-size: 2.3rem;
+  }
 }
 
-@media(max-width:770px){
-    #bottom-header {
-        font-size: 1rem;
-    }
-    
-    #ribbon{
-        font-size: 1rem;
-    }
+@media (max-width: 330px) {
+  #main-content #subtitle {
+    font-size: 2rem;
+  }
 
-    #main-content{
-        padding: 2rem;
-        overflow: hidden;
-    }
+  #main-content #description {
+    font-size: 0.9rem;
+  }
 
-    #main-content #title{
-        font-size: 2rem;
-    }
+  #main-content #price {
+    font-size: 1rem;
+  }
 
-    #main-content #product-image{
-        max-width: 1000px;
-    }
+  #main-content #product-image {
+    max-width: 700px;
+  }
+
+  #id-picker {
+    margin: 0 1rem;
+  }
+
+  #id-picker li {
+    margin: 0 0.7rem;
+  }
+
+}
+
+@media (min-width: 760px) {
+  #bottom-header {
+    font-size: 1rem;
+  }
+
+  #ribbon {
+    font-size: 1rem;
+  }
+
+  #main-content {
+    padding: 2rem;
+    overflow: hidden;
+  }
+
+  #main-content #title {
+    font-size: 2rem;
+  }
+
+  #main-content #description {
+    font-size: 1.3rem;
+  }
+
+  #main-content #price {
+    font-size: 1.5rem;
+  }
+
+  #id-picker li {
+    margin: 0 0.5rem;
+  }
+
 }
