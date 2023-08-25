@@ -19,5 +19,9 @@ buttons.forEach((btns) => {
     image.classList.add("changing");
     // seta o atributo, (passa o atributo, oq tá passando)
     image.setAttribute("src", `img/iphone_${id}.jpg`);
+
+    setTimeout(()=>{
+        image.classList.remove("changing");
+    }, 300)
   });
 });
